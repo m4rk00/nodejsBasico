@@ -1,0 +1,16 @@
+{
+    "name": "hola",
+    "version": "1.0.0",
+    "description": "Calcular el area de un triangulo",
+    "main": "triangulo.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Marco Polo Lopez Tovar",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^2.0.7"
+    }
+}

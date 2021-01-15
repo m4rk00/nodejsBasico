@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>YO</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+    <div id="wrapper">
+        <div id="bg"></div>
+        <div id="overlay"></div>
+
+        <header id="header">
+            <h1>Sobre mi</h1>
+            <p>Me llamo Marco Polo López Tovar</p>
+            <p>Tengo 19 años y estoy estudiando en la Universidad Tecnologica de San Juan del Rio</p>
+            <p>Estoy estudianto Tecnologias de la Informacion: Area de desarrollo Multiplataforma</p>
+            <br>
+            <p>Me gustaria aprender lo mas que pueda de esta materia.</p>
+            <nav>
+                <ul>
+                    <li><a href="https://twitter.com/0M4rk0" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="https://www.facebook.com/m4rk0P/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                </ul>
+            </nav>
+        </header>
+        <footer id="footer">
+            <div style="background-color: gray;">
+                <h3>Marco Polo López Tovar</h3>
+            </div>
+        </footer>
+    </div>
+    </div>
+    <script>
+        window.onload = function() {
+            document.body.classList.remove('is-preload');
+        }
+        window.ontouchmove = function() {
+            return false;
+        }
+        window.onorientationchange = function() {
+            document.body.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
